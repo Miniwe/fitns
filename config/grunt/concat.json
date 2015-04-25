@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "src": [
+      ".tmp/bower_components.js",
+      ".tmp/templates.js",
+      ".tmp/app.coffee.js"
+    ],
+    "dest": ".tmp/script.js"
+  },
+  "styles": {
+    "src": [
+      ".tmp/*.css",
+      ".tmp/css/vendor.css",
+      ".tmp/css/app.css"
+    ],
+    "dest": ".tmp/css/style.css"
+  }
+}

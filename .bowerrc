@@ -1,0 +1,7 @@
+{
+    "directory": "bower_components",
+    "scripts": {
+        "_postinstall": "rm -rf app/bower_components/underscore",
+        "@todo": "try to fix main in snackbar"
+    }
+}

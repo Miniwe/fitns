@@ -1,0 +1,23 @@
+{
+  "scripts": [
+    "coffee_jshint",
+    "coffee",
+    "bower_concat"
+  ],
+  "styles": [
+    "compass:dev"
+  ],
+  "front": [
+    "tmp:create",
+    "scripts",
+    "styles",
+    "concat",
+    "copy",
+    "notify:client_complete"
+  ],
+  "default": [
+    "front"
+  ]
+}
+
+

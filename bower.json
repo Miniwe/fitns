@@ -1,0 +1,27 @@
+{
+  "name": "fitness",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Miniwe/fitns",
+  "authors": [
+    "Vitaly Dryukov <miniwe@mail.ru>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "GNU-V3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-rem": "~1.2.0",
+    "bootstrap-sass": "~3.3.4",
+    "bootstrap-material-design": "~0.3.0",
+    "moment": "~2.10.2",
+    "snackbarjs": "~1.0.0"
+  }
+}

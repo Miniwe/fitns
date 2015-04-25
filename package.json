@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "express": "~4.9.x"
-  },
   "engines": {
     "node": "0.12.2"
   },
@@ -21,5 +18,22 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-concat": "^0.4.0",
+    "grunt-coffee-jshint": "^0.2.1",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-notify": "^0.4.1",
+    "load-grunt-config": "^0.17.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.1"
+  }
 }

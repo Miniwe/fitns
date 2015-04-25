@@ -1,0 +1,22 @@
+{
+  "all": {
+    "dest": ".tmp/bower_components.js",
+    "cssDest": ".tmp/bower_components.css",
+    "exclude": [
+      "// jquery",
+      "// modernizr"
+    ],
+    "dependencies": {
+      "underscore": "jquery",
+      "backbone": "underscore"
+    },
+    "bowerOptions": {
+      "relative": false
+    },
+    "mainFiles": {
+      "sass-rem": "_res.scss",
+      "snackbarjs": ["dist/snackbar.min.css","dist/snackbar.min.js","themes-css/material.css"]
+    }
+
+  }
+}

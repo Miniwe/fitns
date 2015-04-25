@@ -1,0 +1,29 @@
+{
+  "options":
+  {
+    "globals":
+    [
+      "process",
+      "$",
+      "jQuery",
+      "_",
+      "io",
+      "Backbone",
+      "console",
+      "window",
+      "document",
+      "config",
+      "Tracktime",
+      "moment",
+      "Handlebars",
+      "Slideout",
+      "JST",
+      "require",
+      "module"
+    ]
+  },
+  "files":
+  [
+    "app/**/*.coffee"
+  ]
+}
