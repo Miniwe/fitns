@@ -1,3 +1,5 @@
 'use strict'
 
-console.log 'hello fitness'
+$ () ->
+  console.log 'hello fitness'
+  $.material.init()

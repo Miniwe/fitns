@@ -15162,7 +15162,10 @@ if (typeof jQuery === 'undefined') {
 
 (function() {
   'use strict';
-  console.log('hello fitness');
+  $(function() {
+    console.log('hello fitness');
+    return $.material.init();
+  });
 
 }).call(this);
 
