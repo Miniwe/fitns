@@ -1,0 +1,15 @@
+{
+  "dev":
+  {
+    "script": "index.coffee",
+    "options":
+    {
+      "ext": ["coffee"],
+      "env":
+      {
+        "PORT": "5000"
+      },
+      "legacyWatch": false
+    }
+  }
+}

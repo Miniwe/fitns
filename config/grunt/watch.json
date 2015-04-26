@@ -6,38 +6,28 @@
         "options":
         {
             "spawn": false,
-            "livereload": 6573
+            "livereload": 7001
         }
     },
     "styles":
     {
-        "files": ["app/assets/sass/**/*.scss"],
+        "files": ["assets/sass/**/*.scss"],
         "tasks": ["compass:dev", "concat:styles", "copy:styles"],
         "options":
         {
             "spawn": false,
-            "livereload": 6573
+            "livereload": 7001
         }
     },
     "templates":
     {
-        "files": ["app/templates/**/*.hbs"],
-        "tasks": ["handlebars", "copy:scripts"],
+        "files": ["templates/**/*.hbs"],
         "options":
         {
             "spawn": false,
-            "livereload": 6573
+            "livereload": 7001
         }
-    },
-    "express": {
-      "files":  [ "server/**/*._js", "server/**/*._coffee" ],
-      "tasks":  [ "express:dev:stop", "express:dev:start" ],
-      "options": {
-        "spawn": false,
-        "livereload": true
-      }
     }
-
 }
 
 

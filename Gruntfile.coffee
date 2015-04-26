@@ -6,7 +6,6 @@ config =
   'server': 'port': '5000'
 
 module.exports = (grunt) ->
-  # Load grunt config and tasks automatically
   require('load-grunt-config') grunt,
     configPath: path.join(process.cwd(), 'config/grunt')
     init: true
@@ -20,7 +19,6 @@ module.exports = (grunt) ->
       scope: 'devDependencies'
     postProcess: (config) ->
     preMerge: (config, data) ->
-  # Time how long tasks take. Can help when optimizing build times
 
   require('time-grunt') grunt
 

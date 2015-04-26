@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link type="text/css" rel="stylesheet" href="/css/style.css"/>
+    {{{block "pageStyles"}}}
+  </head>
+  <body>
+
+    {{{body}}}
+
+    {{> scripts}}
+
+    {{#if PROD_MODE}}
+    {{{block 'googleAnalyticsScripts'}}}
+    {{/if}}
+    <hr>
+
+    <pre>
+
+    <h1>default layout</h1>
+    - add data
+    - add partial
+    - add helper
+    - rename sample.hbs
+    - make base page
+    </pre>
+
+  </body>
+</html>
+
