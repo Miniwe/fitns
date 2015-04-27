@@ -1,0 +1,17 @@
+@import "global/base";
+
+$color: purple;
+.site-header
+{
+    // height: 4rem;
+
+    // background-color: red;
+    &__navbar
+    {
+        // outline: .4rem solid blue;
+        &--dinamic
+        {
+            // color: $color;
+        }
+    }
+}

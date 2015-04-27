@@ -22,8 +22,8 @@
       {
         "expand": true,
         "cwd": ".tmp",
-        "src": "css/**",
-        "dest": "public/assets"
+        "src": "*.css",
+        "dest": "public/assets/css"
       }
     ]
   },
@@ -40,6 +40,18 @@
         "cwd": "bower_components/snackbarjs/dist",
         "src": "snackbar.min.js.map",
         "dest": "public/assets/js/"
+      }
+    ]
+  },
+  "bootstrap-fonts": {
+    "files": [
+      {
+        "expand": true,
+        "cwd": "bower_components/bootstrap-sass/assets",
+        "src": [
+          "fonts/**"
+        ],
+        "dest": "public/assets"
       }
     ]
   },

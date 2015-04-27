@@ -1,0 +1,11 @@
+@import "global/base";
+
+html {
+  @include rem-baseline;
+}
+
+body
+{
+    padding-top: 6rem;
+}
+

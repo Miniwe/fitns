@@ -15,10 +15,10 @@ app.set 'view engine', 'hbs'
 app.set 'views', __dirname + '/templates'
 # @link Options hbs #express4  https://github.com/barc/express-hbs
 
-
 app.get '/', (req, res) ->
-  res.render 'index',
+  res.render 'pages/index',
     title: 'Hello World! + coffee + hbs'
+    header_title: 'FitNS'
   return
 
 app.listen app.get('port'), ->

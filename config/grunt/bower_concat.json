@@ -1,7 +1,7 @@
 {
   "all": {
     "dest": ".tmp/bower_components.js",
-    "cssDest": ".tmp/bower_components.css",
+    "cssDest": ".tmp/css/bower_components.css",
     "exclude": [
       "// jquery",
       "// modernizr"

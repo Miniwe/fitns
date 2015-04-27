@@ -33,7 +33,7 @@
 // $text-color:            $gray-dark;
 
 //** Global textual link color.
-// $link-color:            $brand-primary;
+$link-color: orange;
 //** Link hover color set via `darken()` function.
 // $link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
@@ -82,6 +82,7 @@
 // [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
 // [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
 // $icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/");
+$icon-font-path: "assets/fonts/bootstrap/";
 
 //** File name for all font files.
 // $icon-font-name:          "glyphicons-halflings-regular";

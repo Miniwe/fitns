@@ -9,10 +9,10 @@
   },
   "styles": {
     "src": [
-      ".tmp/*.css",
       ".tmp/css/vendor.css",
-      ".tmp/css/app.css"
+      ".tmp/css/bower_components.css",
+      ".tmp/css/styles.css"
     ],
-    "dest": ".tmp/css/style.css"
+    "dest": ".tmp/styles.css"
   }
 }
