@@ -1,4 +1,4 @@
-<header class='site-header'>
+<header class="site-header">
   <nav class="site-header__navbar site-header__navbar--dinamic navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -7,9 +7,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="javascript:void(0)">{{title}}</a>
+        <a class="navbar-brand clearfix" href="javascript:void(0)">
+          <img src="/assets/img/logo.svg" alt="{{title}}" class="pull-left" style="width: 7rem;" />
+          <div class="caption pull-left">{{title}}</div></a>
       </div>
-      <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <div class="navbar-collapse collapse navbar-responsive-collapse hidden">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="javascript:void(0)">Link 1</a></li>
           <li><a href="javascript:void(0)">Link 2</a></li>

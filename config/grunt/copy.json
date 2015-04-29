@@ -43,6 +43,16 @@
       }
     ]
   },
+  "images": {
+    "files": [
+      {
+        "expand": true,
+        "cwd": "assets",
+        "src": "img/*.*",
+        "dest": "public/assets"
+      }
+    ]
+  },
   "bootstrap-fonts": {
     "files": [
       {

@@ -1,0 +1,101 @@
+@import 'compass/css3/opacity';
+@import 'compass/css3/transition';
+@import 'compass/css3/transform';
+
+.index-jumbotron
+{
+    .carousel-fade
+    {
+        opacity: 1;
+        .item
+        {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0 !important;
+
+            display: block !important;
+
+            width: 100%;
+
+            @include transition(opacity ease-in-out .5s);
+            @include opacity(0);
+            &:first-child
+            {
+                position: relative;
+                top: auto;
+            }
+            &.active
+            {
+                z-index: 2;
+
+                @include opacity(1);
+                @include transition(opacity ease-in-out .5s);
+            }
+            .container
+            {
+                position: relative;
+                .carousel-caption
+                {
+                    top: 16rem;
+                    right: auto;
+                    bottom: 0;
+                    left: 0;
+
+                    margin-left: 10rem;
+                    padding-top: 0;
+                    padding-bottom: 0;
+
+                    text-align: left;
+                    max-width: 40%;
+                    h2
+                    {
+                        font-weight: 400;
+
+                        padding: .5rem 2rem;
+
+                        background-color: $c-green-light;
+
+                        display: inline-block;
+                    }
+                    .description {
+                      background: rgba(60, 60, 60, 0.6);
+                      padding: .4em 1.6rem;
+                      font-size: 1.5rem;
+                      line-height: 2.1;
+                    }
+                }
+            }
+        }
+        .carousel-control
+        {
+            z-index: 3;
+        }
+        .carousel-indicators
+        {
+            li
+            {
+                width: 2rem;
+                height: 2rem;
+                margin: 0 .6rem 0;
+
+                border: 1px solid #fff;
+                border-radius: 2rem;
+                background-color: rgba(255,255,255,.1);
+
+                @include transition(all .6s ease-in-out);
+                &.active
+                {
+                    width: 2rem;
+                    height: 2rem;
+                    margin: 0 .6rem 0;
+
+                    border-radius: 2rem;
+                    background-color: rgba(255,255,255,.8);
+
+                    @include scale(1.3);
+                }
+            }
+        }
+    }
+}

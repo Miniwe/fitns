@@ -1,17 +1,45 @@
 @import "global/base";
+@import "compass/css3/transition";
 
-$color: purple;
+$brand-height: 7rem;
+
 .site-header
 {
     // height: 4rem;
 
-    // background-color: red;
+    .navbar-inverse.navbar {
+        background: rgba(0,0,0,0);
+        @include transition(background .4s linear);
+    }
+    &.slided {
+        .navbar-inverse.navbar {
+            background: rgba(0,0,0,0.8);
+        }
+    }
     &__navbar
     {
+        margin: 0;
         // outline: .4rem solid blue;
         &--dinamic
         {
             // color: $color;
+        }
+        .navbar-brand {
+            display: block;
+            float: none;
+            height: auto;
+            img {
+                width: $brand-height;
+            }
+            .caption {
+              text-transform: uppercase;
+              line-height: $brand-height;
+              font-size: $brand-height / 3;
+              font-weight: 500;
+              color: #32E132;
+              text-shadow: .1rem .1rem .1rem #000;
+              margin-left: 1.3rem;
+            }
         }
     }
 }

@@ -17,7 +17,7 @@ app.set 'views', __dirname + '/templates'
 
 app.get '/', (req, res) ->
   res.render 'pages/index',
-    title: 'Hello World! + coffee + hbs'
+    title: 'Fit NS'
     header_title: 'FitNS'
   return
 

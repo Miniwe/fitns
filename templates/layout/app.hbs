@@ -18,18 +18,13 @@
 </head>
 
 <body>
-    {{> app/header}}
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    {{> index/slider}}
+    {{> app/header}} {{> index/slider}}
     <div class="container">
         {{{body}}}
-
     </div>
     {{> app/footer}}
-
     <!-- scripts -->
     <script src="/assets/js/script.js"></script>
-
     <!-- live reload -->
     <script src="//localhost:7001/livereload.js"></script>
 </body>
