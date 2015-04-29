@@ -2,8 +2,9 @@
 express = require('express')
 app = express()
 app.set 'port', process.env.PORT or 5000
-app.use express.static(__dirname + '/public')
 
+bunyan = require('bunyan')
+log = bunyan.createLogger {name: "fitns"}
 
 hbs = require('express-hbs')
 app.engine 'hbs', hbs.express4
@@ -21,6 +22,12 @@ app.get '/', (req, res) ->
     header_title: 'FitNS'
   return
 
+app.get '/status', (req, res) ->
+  res.json msg: 'server online'
+  return
+
+app.use express.static(__dirname + '/public')
+
 app.listen app.get('port'), ->
-  console.log 'Node app is running at localhost:' + app.get('port')
+  log.info('Node app is running at localhost:' + app.get('port'))
   return
