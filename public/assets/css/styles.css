@@ -1429,12 +1429,12 @@ textarea {
 
 /* line 48, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: orange;
+  color: navy;
   text-decoration: none;
 }
 /* line 52, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #b37300;
+  color: #000034;
   text-decoration: underline;
 }
 /* line 58, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -4293,7 +4293,7 @@ select[multiple].input-lg,
 
 /* line 88, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: orange;
+  color: navy;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4309,7 +4309,7 @@ select[multiple].input-lg,
 }
 /* line 107, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #b37300;
+  color: #000034;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -5009,7 +5009,7 @@ tbody.collapse.in {
 /* line 46, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: orange;
+  border-color: navy;
 }
 /* line 59, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5839,7 +5839,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
-  color: orange;
+  color: navy;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -5861,7 +5861,7 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #b37300;
+  color: #000034;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -6097,7 +6097,7 @@ a.label:hover, a.label:focus {
 }
 /* line 39, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_badges.scss */
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: orange;
+  color: navy;
   background-color: #fff;
 }
 /* line 44, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_badges.scss */
@@ -6191,7 +6191,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: orange;
+  border-color: navy;
 }
 
 /* line 9, ../../../../.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/bootstrap/_alerts.scss */
@@ -16584,11 +16584,6 @@ hr.on-light {
   border-radius: 200px;
 }
 
-/* line 3, ../../assets/sass/global/_layout.scss */
-html {
-  font-size: 62.5%;
-}
-
 /* line 3, ../../assets/sass/global/_typography.scss */
 h1 {
   font-size: 24px;
@@ -16604,7 +16599,7 @@ h1 {
   padding: 1rem;
 }
 
-/* line 10, ../../assets/sass/app/_site-header.scss */
+/* line 10, ../../assets/sass/layout/_site-header.scss */
 .site-header .navbar-inverse.navbar {
   background: transparent;
   -moz-transition: background 0.4s linear;
@@ -16612,25 +16607,25 @@ h1 {
   -webkit-transition: background 0.4s linear;
   transition: background 0.4s linear;
 }
-/* line 15, ../../assets/sass/app/_site-header.scss */
+/* line 15, ../../assets/sass/layout/_site-header.scss */
 .site-header.slided .navbar-inverse.navbar {
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 19, ../../assets/sass/app/_site-header.scss */
+/* line 19, ../../assets/sass/layout/_site-header.scss */
 .site-header__navbar {
   margin: 0;
 }
-/* line 27, ../../assets/sass/app/_site-header.scss */
+/* line 27, ../../assets/sass/layout/_site-header.scss */
 .site-header__navbar .navbar-brand {
   display: block;
   float: none;
   height: auto;
 }
-/* line 31, ../../assets/sass/app/_site-header.scss */
+/* line 31, ../../assets/sass/layout/_site-header.scss */
 .site-header__navbar .navbar-brand img {
   width: 7rem;
 }
-/* line 34, ../../assets/sass/app/_site-header.scss */
+/* line 34, ../../assets/sass/layout/_site-header.scss */
 .site-header__navbar .navbar-brand .caption {
   text-transform: uppercase;
   line-height: 7rem;
@@ -16641,16 +16636,21 @@ h1 {
   margin-left: 1.3rem;
 }
 
-/* line 3, ../../assets/sass/app/_site-footer.scss */
+/* line 3, ../../assets/sass/layout/_site-footer.scss */
 .site-footer {
   background-color: #e5e5e5;
 }
 
-/* line 7, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 5, ../../assets/sass/layout/_layout.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 7, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade {
   opacity: 1;
 }
-/* line 10, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 10, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item {
   position: absolute;
   z-index: 1;
@@ -16665,12 +16665,12 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 23, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 23, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item:first-child {
   position: relative;
   top: auto;
 }
-/* line 28, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 28, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item.active {
   z-index: 2;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -16680,11 +16680,11 @@ h1 {
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
-/* line 35, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 35, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item .container {
   position: relative;
 }
-/* line 38, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 38, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item .container .carousel-caption {
   top: 16rem;
   right: auto;
@@ -16696,25 +16696,25 @@ h1 {
   text-align: left;
   max-width: 40%;
 }
-/* line 51, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 51, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item .container .carousel-caption h2 {
   font-weight: 400;
   padding: .5rem 2rem;
   background-color: #32E132;
   display: inline-block;
 }
-/* line 61, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 61, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .item .container .carousel-caption .description {
   background: rgba(60, 60, 60, 0.6);
   padding: .4em 1.6rem;
   font-size: 1.5rem;
   line-height: 2.1;
 }
-/* line 70, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 70, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .carousel-control {
   z-index: 3;
 }
-/* line 76, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 76, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .carousel-indicators li {
   width: 2rem;
   height: 2rem;
@@ -16727,7 +16727,7 @@ h1 {
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-/* line 87, ../../assets/sass/blocks/_index-jumbotron.scss */
+/* line 87, ../../assets/sass/components/_index-jumbotron.scss */
 .index-jumbotron .carousel-fade .carousel-indicators li.active {
   width: 2rem;
   height: 2rem;

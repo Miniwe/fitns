@@ -23,7 +23,7 @@ app.get '/', (req, res) ->
   return
 
 app.get '/status', (req, res) ->
-  res.json msg: 'server online'
+  res.json msg: 'server online tmp'
   return
 
 app.use express.static(__dirname + '/public')

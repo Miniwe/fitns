@@ -9,9 +9,9 @@
   },
   "styles": {
     "src": [
-      ".tmp/css/vendor.css",
       ".tmp/css/bower_components.css",
-      ".tmp/css/styles.css"
+      ".tmp/css/vendor.css",
+      ".tmp/css/main.css"
     ],
     "dest": ".tmp/styles.css"
   }

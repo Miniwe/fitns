@@ -1,4 +1,6 @@
 @import "global/base";
+@import "layout/site-header";
+@import "layout/site-footer";
 
 html {
   @include rem-baseline;
