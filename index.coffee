@@ -3,6 +3,7 @@ express = require('express')
 app = express()
 app.set 'port', process.env.PORT or 5000
 
+# @todo
 bunyan = require('bunyan')
 log = bunyan.createLogger {name: "fitns"}
 
